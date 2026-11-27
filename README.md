@@ -16,9 +16,13 @@ An urban crowd can be observed through regional occupancy estimates, camera dens
 
 ## Field sensing and simulation setup
 
-![MassMotion model of Shanghai’s East Nanjing Road and the Bund with occupancy regions, local density footprints, and bidirectional counting lines.](assets/simulation-sampling.jpg)
+![Field data collection schematic showing fixed cameras, mobile network signals, and the processing steps for local density, directional crossings, and regional occupancy.](assets/field-data-collection.svg)
 
-The field setup on **East Nanjing Road and the Bund, Shanghai** combines fixed cameras with aggregate location-based service (LBS) estimates. Image processing turns camera detections into local densities, counting-line cameras accumulate passages, and LBS supplies regional occupancy estimates. The MassMotion scene emulates these measurement supports with virtual regions, footprints, and lines along the pedestrian street, crossings, and waterfront promenade.
+The field study combines fixed-camera measurements with aggregated location-based service (LBS) estimates on **East Nanjing Road and the Bund, Shanghai**. The drawing uses generic outdoor cameras and a schematic cellular site to illustrate the hardware and data collection. The study uses the aggregate LBS feed. The provider's signal-processing method and equipment layout are unspecified. [Outdoor camera reference](https://www.axis.com/en-us/products/axis-p14-series) · [Camera counting methods](https://whitepapers.axis.com/en-us/axis-counting-solutions) · [Population estimation from mobile network data](https://pmc.ncbi.nlm.nih.gov/articles/PMC4234567/).
+
+The MassMotion scene emulates these measurement supports with virtual regions, footprints, and lines along the pedestrian street, crossings, and waterfront promenade.
+
+![MassMotion model of Shanghai’s East Nanjing Road and the Bund with occupancy regions, local density footprints, and bidirectional counting lines.](assets/simulation-sampling.jpg)
 
 | Observation | Field sensing and processing | Simulation sampling |
 | --- | --- | --- |

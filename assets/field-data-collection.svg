@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title description">
+  <title id="title">Field data collection at an urban waterfront</title>
+  <desc id="description">Schematic waterfront scene with two fixed cameras, a mobile phone and a cellular site. Camera detections over a footprint give local density. Directional camera-line events give crossing counts. The study receives aggregate location-based service estimates for regional occupancy. Records retain reference and availability times for use at the forecast origin.</desc>
+
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #142c47 }
+      .title { font-size: 35px; font-weight: 700; letter-spacing: -.5px }
+      .subtitle { font-size: 18px; fill: #435b71 }
+      .column { font-size: 16px; font-weight: 700; letter-spacing: .5px }
+      .heading { font-size: 20px; font-weight: 700 }
+      .channel-heading { font-size: 19px; font-weight: 700 }
+      .body { font-size: 16px; fill: #40576a }
+      .small { font-size: 14px; fill: #435b71 }
+      .scene-label { font-size: 14px; font-weight: 700 }
+      .badge { font-size: 23px; font-weight: 700; text-anchor: middle }
+      .density { fill: #006e73 }
+      .crossing { fill: #984c19 }
+      .occupancy { fill: #2b54a0 }
+    </style>
+
+    <clipPath id="scene-clip"><rect x="32" y="141" width="476" height="362" rx="14"/></clipPath>
+    <path id="arrowhead" d="M-8-4L0 0-8 4z"/>
+    <g id="person">
+      <ellipse cy="3" rx="5" ry="2" fill="#8c9ba6" opacity=".35"/>
+      <path d="M-2-8v6L-4 3m6-11v6l2 5" fill="none" stroke="#203a52" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M-3.5-12q3.5-3 7 0l.8 5-3.2 1.4-5-1.5z" fill="currentColor"/>
+      <circle cy="-16" r="3.1" fill="#203a52"/>
+    </g>
+    <g id="window-row" fill="#668398" opacity=".55">
+      <rect width="12" height="14" rx="1"/><rect x="20" width="12" height="14" rx="1"/>
+      <rect x="40" width="12" height="14" rx="1"/><rect x="60" width="12" height="14" rx="1"/>
+    </g>
+    <g id="bullet-camera" stroke-linejoin="round">
+      <path d="M0 5v23m0-17h13l5 5" fill="none" stroke="#476178" stroke-width="4" stroke-linecap="round"/>
+      <path d="M10 1l39 8v16L10 17Q5 9 10 1z" fill="#eef5f9" stroke="#496278" stroke-width="1.5"/>
+      <ellipse cx="49" cy="17" rx="7" ry="8" fill="#273e53" stroke="#496278" stroke-width="1.5"/>
+      <circle cx="50" cy="17" r="3.1" fill="#92cdd9"/>
+      <path d="M8 1l40 6 8 4-7 2-41-8z" fill="#fff" stroke="#496278" stroke-width="1.2"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="640" rx="18" fill="#fff"/>
+  <g id="page-header">
+    <text class="title" x="32" y="52">Field data collection</text>
+    <text class="subtitle" x="32" y="80">East Nanjing Road and the Bund, Shanghai</text>
+    <path d="M32 100h1136" stroke="#dce6ee"/>
+    <text class="column" x="32" y="127">URBAN WATERFRONT</text>
+    <text class="column" x="551" y="127">OBSERVATION PROCESSING</text>
+    <text class="column" x="913" y="127">FIELD CHANNELS</text>
+  </g>
+
+  <g id="field-scene">
+    <g clip-path="url(#scene-clip)">
+      <rect x="32" y="141" width="476" height="362" fill="#e8f2f8"/>
+      <path d="M39 237v-37h20v-16h29v28h18v-28h23v15h20v-37h20v54h18v-20h18v-21h34v41h20v-32h24v54h225v38H32v-39z" fill="#cedee9"/>
+
+      <g id="buildings">
+        <path d="M44 202l92-20 45 15-93 20z" fill="#f3f7fa"/>
+        <path d="M44 202l44 15v94l-44-16z" fill="#a6becc"/>
+        <path d="M88 217l93-20v94l-93 20z" fill="#cbd9df"/>
+        <use href="#window-row" transform="matrix(1 -.22 0 1 99 233)"/>
+        <use href="#window-row" transform="matrix(1 -.22 0 1 99 257)"/>
+        <path d="M205 210l96-20 39 14-96 20z" fill="#f6f7f5"/>
+        <path d="M205 210l39 14v64l-39-14z" fill="#aabec7"/>
+        <path d="M244 224l96-20v64l-96 20z" fill="#d5dedc"/>
+        <use href="#window-row" transform="matrix(1 -.22 0 1 255 242)"/>
+        <path d="M369 228l95-20 48 16-95 21z" fill="#f7fafb"/>
+        <path d="M369 228l48 17v54l-48-16z" fill="#96afbf"/>
+        <path d="M417 245l95-21v54l-95 21z" fill="#c0d4dc"/>
+        <use href="#window-row" transform="matrix(1 -.22 0 1 428 261)"/>
+      </g>
+
+      <g id="walkway-and-water">
+        <path d="M32 313l478-85v175L32 489z" fill="#e7e8e0"/>
+        <path d="M32 325l478-87m-478 103l478-86M32 371l478-86M32 416l478-86M32 442l478-86M32 460l478-86" fill="none" stroke="#d2dad7"/>
+        <path d="M57 310l66 157m5-171l70 157m5-170l70 155m2-169l72 156m2-169l73 156m2-169l69 155" fill="none" stroke="#d4dcd9"/>
+        <path d="M32 464l478-89v17L32 482z" fill="#f0eee4"/>
+        <path d="M32 481l478-89v13L32 494z" fill="#829eab"/>
+        <path d="M32 494l478-89v98H32z" fill="#a9d8e3"/>
+        <path d="M129 496l55-10m35 7l87-16m38-16l42-8m14 25l81-15m-40-24l43-8" stroke="#d8eff3" stroke-width="2.3" stroke-linecap="round"/>
+        <path d="M68 464l424-79m-424 79v-7m48-2v-7m48-2v-7m48-2v-7m48-2v-7m48-2v-7m48-2v-7m48-2v-7m48-2v-7m40-1v-7" stroke="#587484" stroke-width="1.7" fill="none"/>
+      </g>
+
+      <g id="channel-supports">
+        <path d="M81 335l315-65 79 86-322 73z" fill="#3b67b3" fill-opacity=".07" stroke="#315aa7" stroke-width="2.1" stroke-dasharray="7 5"/>
+        <path d="M142 290l-3 67 62-14-19-18z" fill="#25a8a1" fill-opacity=".16"/>
+        <path d="M139 357l62-14 48 38-70 16z" fill="#5cc8c0" fill-opacity=".36" stroke="#007c7f" stroke-width="2.4"/>
+        <path d="M309 283l4 34 53 69 28-11z" fill="#d68b4b" fill-opacity=".17"/>
+        <path d="M319 321l47 65" stroke="#fff4de" stroke-width="6" stroke-linecap="round"/>
+        <path d="M319 321l47 65" stroke="#ad581f" stroke-width="3.3" stroke-linecap="round"/>
+        <path d="M305 349l48-12m30 15l-49 12" fill="none" stroke="#a6531d" stroke-width="2.5"/>
+        <use href="#arrowhead" transform="translate(356 336) rotate(-14)" fill="#a6531d"/>
+        <use href="#arrowhead" transform="translate(331 365) rotate(166)" fill="#a6531d"/>
+      </g>
+
+      <g id="pedestrians">
+        <use href="#person" transform="translate(108 369)" color="#6b8da8"/>
+        <use href="#person" transform="translate(151 338) scale(.9)" color="#647c9e"/>
+        <use href="#person" transform="translate(165 375)" color="#158e86"/>
+        <use href="#person" transform="translate(185 367) scale(.9)" color="#12857c"/>
+        <use href="#person" transform="translate(200 379)" color="#387a94"/>
+        <use href="#person" transform="translate(224 363) scale(.9)" color="#178783"/>
+        <use href="#person" transform="translate(249 391)" color="#b36e47"/>
+        <use href="#person" transform="translate(238 338)" color="#587d98"/>
+        <use href="#person" transform="translate(268 353)" color="#6882a6"/>
+        <use href="#person" transform="translate(285 324) scale(.9)" color="#4e789d"/>
+        <use href="#person" transform="translate(281 377)" color="#a9674e"/>
+        <use href="#person" transform="translate(309 365)" color="#ba7139"/>
+        <use href="#person" transform="translate(350 322) scale(.9)" color="#b96734"/>
+        <use href="#person" transform="translate(370 333) scale(.85)" color="#48729e"/>
+        <use href="#person" transform="translate(390 371)" color="#b87249"/>
+        <use href="#person" transform="translate(413 377)" color="#587eae"/>
+        <use href="#person" transform="translate(442 348)" color="#385e9d"/>
+        <use href="#person" transform="translate(458 320) scale(.9)" color="#5386a5"/>
+        <use href="#person" transform="translate(129 414)" color="#567da0"/>
+      </g>
+
+      <g id="fixed-cameras">
+        <path d="M83 275v59m176-63v42" stroke="#5b778c" stroke-width="4.2" stroke-linecap="round"/>
+        <use href="#bullet-camera" x="83" y="266"/>
+        <use href="#bullet-camera" x="259" y="258"/>
+      </g>
+
+      <g id="cell-site-and-phone">
+        <path d="M403 224v-58m-9 59l9-14 9 10m-16-26h14" fill="none" stroke="#415b77" stroke-width="3" stroke-linecap="round"/>
+        <rect x="389" y="173" width="8" height="25" rx="2.5" fill="#f8fbfd" stroke="#486384" stroke-width="1.5"/>
+        <rect x="408" y="171" width="8" height="25" rx="2.5" fill="#f8fbfd" stroke="#486384" stroke-width="1.5"/>
+        <path d="M421 172q11 10 3 23m3-30q17 15 6 33m-51-22q-11 11-3 23" fill="none" stroke="#3b6caa" stroke-width="2" stroke-linecap="round"/>
+        <path d="M422 204q41 30 16 82" fill="none" stroke="#3765aa" stroke-width="1.8" stroke-dasharray="3 5"/>
+        <rect x="430" y="278" width="16" height="27" rx="3.1" fill="#f7fbff" stroke="#2d579e" stroke-width="2"/>
+        <path d="M433.5 282h9m-9 18h9" stroke="#5b7ea9" stroke-width="1.2"/>
+      </g>
+
+      <g id="hardware-labels">
+        <rect x="51" y="155" width="124" height="28" rx="6" fill="#fff"/>
+        <text class="scene-label" x="61" y="174">Fixed cameras</text>
+        <path d="M90 183v79" fill="none" stroke="#637b91" stroke-width="1.2" stroke-dasharray="4 3"/>
+        <rect x="283" y="152" width="85" height="26" rx="6" fill="#fff"/>
+        <text class="scene-label occupancy" x="294" y="170">Cell site</text>
+        <path d="M369 168h14" fill="none" stroke="#385e9d" stroke-width="1.2"/>
+      </g>
+
+      <g id="scene-key">
+        <rect x="47" y="450" width="446" height="37" rx="8" fill="#fff" stroke="#d7e3eb"/>
+        <path d="M61 468h19" stroke="#007c7f" stroke-width="3"/>
+        <text class="small" x="86" y="473">Camera footprint</text>
+        <path d="M201 468h18" stroke="#ad581f" stroke-width="3"/>
+        <text class="small" x="226" y="473">Counting line</text>
+        <path d="M330 468h21" stroke="#315aa7" stroke-width="2.5" stroke-dasharray="5 3"/>
+        <text class="small" x="358" y="473">LBS region</text>
+      </g>
+    </g>
+    <rect x="32" y="141" width="476" height="362" rx="14" fill="none" stroke="#d4e2eb"/>
+  </g>
+
+  <g id="data-paths" fill="#637f96">
+    <path d="M514 198h24m-24 124h24m-24 124h24m330-248h31m-31 124h31m-31 124h31" fill="none" stroke="#637f96" stroke-width="1.8"/>
+    <use href="#arrowhead" x="544" y="198"/><use href="#arrowhead" x="544" y="322"/><use href="#arrowhead" x="544" y="446"/>
+    <use href="#arrowhead" x="905" y="198"/><use href="#arrowhead" x="905" y="322"/><use href="#arrowhead" x="905" y="446"/>
+  </g>
+
+  <g id="density-workflow">
+    <rect x="550" y="141" width="310" height="114" rx="12" fill="#f0faf9" stroke="#c5e4e2"/>
+    <text class="heading density" x="567" y="171">People detection</text>
+    <text class="body" x="567" y="198">Count people in the camera footprint.</text>
+    <text class="body" x="567" y="222">Divide by its configured area.</text>
+
+    <rect x="912" y="141" width="256" height="114" rx="12" fill="#f0faf9" stroke="#c5e4e2"/>
+    <rect x="928" y="156" width="34" height="34" rx="8" fill="#00797c"/>
+    <text class="badge" style="fill:#fff" x="945" y="181">D</text>
+    <text class="channel-heading density" x="971" y="180">Local density</text>
+    <text class="body" x="928" y="212">14 footprints · people/m²</text>
+    <text class="small" x="928" y="234">Mean of samples in each 5-min bin</text>
+  </g>
+
+  <g id="crossing-workflow">
+    <rect x="550" y="265" width="310" height="114" rx="12" fill="#fdf6ee" stroke="#ebd5bc"/>
+    <text class="heading crossing" x="567" y="295">Directional line counting</text>
+    <text class="body" x="567" y="322">Camera analytics detect passages</text>
+    <text class="body" x="567" y="346">across a virtual line in each direction.</text>
+
+    <rect x="912" y="265" width="256" height="114" rx="12" fill="#fdf6ee" stroke="#ebd5bc"/>
+    <rect x="928" y="280" width="34" height="34" rx="8" fill="#a55621"/>
+    <text class="badge" style="fill:#fff" x="945" y="305">C</text>
+    <text class="channel-heading crossing" x="971" y="304">Crossing counts</text>
+    <text class="body" x="928" y="336">21 lines · 42 channels</text>
+    <text class="small" x="928" y="358">Passages per 5-min bin</text>
+  </g>
+
+  <g id="occupancy-workflow">
+    <rect x="550" y="389" width="310" height="114" rx="12" fill="#f1f5fc" stroke="#d0dcf0"/>
+    <text class="heading occupancy" x="567" y="419">Location-based services</text>
+    <text class="body" x="567" y="446">Mobile network signals can inform</text>
+    <text class="body" x="567" y="470">aggregated LBS occupancy estimates.</text>
+
+    <rect x="912" y="389" width="256" height="114" rx="12" fill="#f1f5fc" stroke="#d0dcf0"/>
+    <rect x="928" y="404" width="34" height="34" rx="8" fill="#315aa7"/>
+    <text class="badge" style="fill:#fff" x="945" y="429">N</text>
+    <text class="channel-heading occupancy" x="971" y="428">Regional occupancy</text>
+    <text class="body" x="928" y="460">2 regions · estimated people</text>
+    <text class="small" x="928" y="482">Estimate at a reference time</text>
+  </g>
+
+  <g id="arrival-timing">
+    <rect x="32" y="525" width="1136" height="86" rx="12" fill="#edf3f8" stroke="#d7e4ee"/>
+    <g transform="translate(61 568)" fill="none" stroke="#3b6787" stroke-width="2" stroke-linecap="round">
+      <circle r="13"/><path d="M0-7v8h5"/>
+    </g>
+    <text class="heading" x="90" y="558">Align records at each forecast origin</text>
+    <text class="body" x="90" y="583">Keep reference and availability times. Use only readings already available.</text>
+
+    <path d="M745 565h366" fill="none" stroke="#819bae" stroke-width="1.5"/>
+    <use href="#arrowhead" x="1117" y="565" fill="#637f96"/>
+    <path d="M755 565h166" fill="none" stroke="#637f96" stroke-width="2.1" stroke-dasharray="4 4"/>
+    <circle cx="755" cy="565" r="5" fill="#fff" stroke="#3e6687" stroke-width="1.8"/>
+    <circle cx="921" cy="565" r="5" fill="#3e6687"/>
+    <path d="M1081 557v15" stroke="#173a58" stroke-width="2"/>
+    <text class="small" x="838" y="550" text-anchor="middle">Observation delay</text>
+    <text class="small" x="755" y="590" text-anchor="middle">Reference</text>
+    <text class="small" x="921" y="590" text-anchor="middle">Available</text>
+    <text class="small" x="1081" y="590" text-anchor="middle">Forecast origin</text>
+  </g>
+</svg>
