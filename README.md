@@ -1,5 +1,9 @@
 # StockFlowCrowd
 
+![Shanghai field data collection schematic with real photographs of a fixed camera and a cellular base station, plus an illustrative pipeline from mobile phone signals to estimated regional occupancy.](assets/field-data-collection.svg)
+
+*Equipment examples from Wikimedia Commons.* [Fixed camera by Neslihan Turan](https://commons.wikimedia.org/wiki/File:Surveillance_camera.jpg) · [Cellular base station by Digitura](https://commons.wikimedia.org/wiki/File:Mobile_mast.jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
 **Stock–flow modeling and observation-informed adaptation for 5–30-minute crowd forecasts**
 
 An urban crowd can be observed through regional occupancy estimates, camera density footprints, and directional counting lines. Each measure covers a different part of the scene, summarizes time differently, and can become available at a different time. StockFlowCrowd combines a spatiotemporal backbone with two jointly trained modules to forecast all three measures from the preceding 120 minutes.
@@ -16,9 +20,7 @@ An urban crowd can be observed through regional occupancy estimates, camera dens
 
 ## Field sensing and simulation setup
 
-![Field data collection schematic showing fixed cameras, mobile network signals, and the processing steps for local density, directional crossings, and regional occupancy.](assets/field-data-collection.svg)
-
-The field study combines fixed-camera measurements with aggregated location-based service (LBS) estimates on **East Nanjing Road and the Bund, Shanghai**. The drawing uses generic outdoor cameras and a schematic cellular site to illustrate the hardware and data collection. The study uses the aggregate LBS feed. The provider's signal-processing method and equipment layout are unspecified. [Outdoor camera reference](https://www.axis.com/en-us/products/axis-p14-series) · [Camera counting methods](https://whitepapers.axis.com/en-us/axis-counting-solutions) · [Population estimation from mobile network data](https://pmc.ncbi.nlm.nih.gov/articles/PMC4234567/).
+The field study combines fixed-camera measurements with aggregated location-based service (LBS) estimates on **East Nanjing Road and the Bund, Shanghai**. The overview pairs the waterfront schematic with equipment reference photographs and an illustrative mobile-network workflow. The field data contain aggregate LBS occupancy estimates. The provider's signal-processing method and equipment layout are unspecified. [Camera counting methods](https://whitepapers.axis.com/en-us/axis-counting-solutions) · [Population estimation from mobile network data](https://pmc.ncbi.nlm.nih.gov/articles/PMC4234567/).
 
 The MassMotion scene emulates these measurement supports with virtual regions, footprints, and lines along the pedestrian street, crossings, and waterfront promenade.
 
